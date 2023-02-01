@@ -4,25 +4,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Resume</title>
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <title>My Profile</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
   <script src="index.js" charset="utf-8"></script>
-  <link rel="icon" type="image/x-icon" href="favicon (2).ico">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Assets\favicon.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="Assets\styles.css">
   <script src="https://kit.fontawesome.com/dafabb7197.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <!-- Navbar -->
-  <div id="header">
-    <div id="backgroundImage">
 
-    </div>
+
+  <header>
+
+    <section id="backgroundImage">
+    </section>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <p class="navbar-brand">GO Resume</p>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <p class="navbar-brand">GO Profile</p>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggler">
@@ -34,7 +44,7 @@
             <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#experience">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#education">Education</a>
@@ -46,19 +56,14 @@
       </div>
     </nav>
 
-    <div id="myName">
-      <h2 style="font-weight: bold;">Genci Odobashi</h2>
-    </div>
+    <section>
+      <h2 id="myName" style="font-weight: bold;">Genci Odobashi</h2>
 
-    <div class="pPicture">
-      <img id="profilePicture"
-        src="Photo\Profile Picture.jpg"
-        alt="Profile Picture">
-    </div>
+      <img class="pPicture" id="profilePicture" src="Assets\Photo\Profile Picture.jpg" alt="Profile Picture">
 
-    <div>
       <h4 id="profession">Web Developer</h4>
-    </div>
+    </section>
+
 
     <div class="headButtons">
       <form action="#contact">
@@ -68,123 +73,151 @@
       <form action="https://drive.google.com/file/d/1wbULB27efnv2wFkJFfOQVkc0RDCp_T5R/view?usp=share_link">
         <button class="hire" type="submit">Download CV</button>
       </form>
-
     </div>
 
-  </div>
+  </header>
+
   <hr>
+
   <!-- about -->
-  <div class="section" id="aboutMe">
-    <div style="padding-bottom: 20px;">
-      <h3 style="color: white;">About Me</h3>
-    </div>
-    <div style="padding-bottom: 20px;">
-      <p>Hello! I am Genci Odobashi, a web Developer.</p>
-    </div>
-    <div class="">
-      <p class="about">I am a talented, ambitious, and hardworking individual, adept at handling multiple tasks on a daily
-        basis competently, and at performing very well under pressure.<span id="dots3">..</span><span id="more3"> A key strength of mine is
+
+  <main>
+    <section class="section" id="aboutMe">
+
+      <h3 style="padding-bottom: 20px; color: white;">About Me</h3>
+      <p style="padding-bottom: 20px;">Hello! I am Genci Odobashi, a web Developer.</p>
+      <p class="about">I am a talented, ambitious, and hardworking individual, adept at handling multiple tasks on a
+        daily
+        basis competently, and at performing very well under pressure.<span id="dots3">..</span><span id="more3"> A key
+          strength of mine is
           communication; building strong relationships with people in order to deliver the best results.
           Thanks to my ability to learn fast, I have changed paths a few times during my career. Lately, I have
           come to realize that I have a strong connection with technology, and based on that I have
-          discovered that my ultimate goal and passion are to become a successful web developer.</span><button class="hideText" onclick="toggle3()" id="myBtn3">read more</button></p>
-    </div>
-  </div>
-  <hr>
-  <!-- Skills -->
-  <div class="section" id="skills">
-    <h3 style="padding-bottom: 20px;">Skills</h3>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col order-last">
-          <p>HTML</p>
+          discovered that my ultimate goal and passion are to become a successful web developer.</span><button
+          class="hideText" onclick="toggle3()" id="myBtn3">read more</button></p>
+
+    </section>
+
+    <hr>
+
+    <!-- Skills & attributes -->
+
+
+    <section class="section" id="skills">
+
+      <h3 style="padding-bottom: 20px;">Skills</h3>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col order-last">
+            <p>HTML</p>
+          </div>
+          <div class="col">
+            <p>CSS</p>
+          </div>
+          <div class="col order-first">
+            <p>JS</p>
+          </div>
         </div>
-        <div class="col">
-          <p>CSS</p>
-        </div>
-        <div class="col order-first">
-          <p>JS</p>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col order-last">
-          <p>Microsoft Office</p>
-        </div>
-        <div class="col">
-          <p>Outlook</p>
-        </div>
-        <div class="col order-first">
-          <p>Atom</p>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col order-last">
-          <p>Attentive to details</p>
-        </div>
-        <div class="col">
-          <p>Analytical</p>
-        </div>
-        <div class="col order-first">
-          <p>Problem solving</p>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col order-last">
-          <p>Organized</p>
-        </div>
-        <div class="col">
-          <p>Motivated</p>
-        </div>
-        <div class="col order-first">
-          <p>Team working</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="h4 text-center mb-4 title">
-        <h4 style="padding-top: 20px;">Languages</h4>
       </div>
 
+      <div class="container text-center">
+        <div class="row">
+          <div class="col order-last">
+            <p>Microsoft Office</p>
+          </div>
+          <div class="col">
+            <p>Outlook</p>
+          </div>
+          <div class="col order-first">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="attributes">
+
+      <h3 style="padding-bottom: 20px;">Attributes</h3>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col order-last">
+            <p>Attentive to details</p>
+          </div>
+          <div class="col">
+            <p>Analytical</p>
+          </div>
+          <div class="col order-first">
+            <p>Problem solving</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col order-last">
+            <p>Organized</p>
+          </div>
+          <div class="col">
+            <p>Motivated</p>
+          </div>
+          <div class="col order-first">
+            <p>Team working</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container languages">
+
+      <h3 style="padding-top: 30px;">Languages</h3>
+
       <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
         <div class="card-body">
+
           <div class="row">
             <div class="col-md-6">
               <div class="progress-container progress-primary"><span class="progress-badge">Albanian</span>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                    style="width: 100%;"></div><span class="progress-value"></span>
+                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full"
+                    data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span
+                    class="progress-value"></span>
                 </div>
               </div>
             </div>
+
             <div class="col-md-6">
               <div class="progress-container progress-primary"><span class="progress-badge">English</span>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                    style="width: 90%;"></div><span class="progress-value"></span>
+                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full"
+                    data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value"></span>
                 </div>
               </div>
             </div>
+
           </div>
+
           <div class="row">
             <div class="col-md-6">
               <div class="progress-container progress-primary"><span class="progress-badge">Italian</span>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                    style="width: 75%;"></div><span class="progress-value"></span>
+                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full"
+                    data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value"></span>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="progress-container progress-primary"><span class="progress-badge">Spanish</span>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                    style="width: 50%;"></div><span class="progress-value"></span>
+                  <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full"
+                    data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value"></span>
                 </div>
               </div>
             </div>
@@ -193,212 +226,242 @@
 
         </div>
       </div>
-    </div>
-  </div>
-  </div>
+    </section>
 
-  <hr>
-  <!-- Experience -->
-  <div class="section" id="experience">
-    <h3 style="color: white;">Experience</h3>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
-      <div id="indicators" class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-      </div>
 
-      <div id="work">
+    <hr>
 
-        <div class="carousel-inner">
+    <!-- Experience -->
+    <div class="section" id="portfolio">
+      <h3 style="color: white;">Portfolio</h3>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
-          <div class="items carousel-item active">
-            <div class="">
-              <h2 class="company">FedEx Ground</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://s29755.pcdn.co/wp-content/uploads/2019/12/Whats-in-the-cards-for-FedEx-in-2020.jpg" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Linehaul Coordinator | Aug 2018 - Present</h5>
-              </div>
-              <div class="">
-                <p>Responsible for the dispatch of transportation equipment in accordance with the Linehaul
-                  plan.<span id="dots1">..</span><span id="more1"> Applying Linehaul schedules and plans to maximize capacity, minimize partial trailer
-                    loads and ensuring service integrity for assigned areas. Directing the dispatch of
-                    transportation equipment. Following and communicating safety initiatives to ensure a
-                    safety-conscious culture. Investigating and reporting schedule delays, accidents and
-                    equipment failures and implementing contingency plans which ensure on-time load
-                    delivery in the event of and en-route breakdown or accident, etc.</span><button class="hideText" onclick="toggle1()" id="myBtn1">read more</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">COX Communications</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://www.codesigned.com/hubfs/Cox-1.png" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Retail Sales Consultant | Dec 2017 - Aug 2018</h5>
-              </div>
-              <div class="">
-                <p>Approaching new customers, consulting existing ones,
-                  upgrading products, making new sales, meeting monthly targets, etc.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">Broadridge output</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://r4e7x8i5.stackpathcdn.com/wp-content/uploads/2021/04/Broadridge-Inks-Deal-to-Acquire-Itiviti-for-US2.5-Billion-1440x564_c.jpg?x79934" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Dispatcher | Sep 2017 - Dec 2017</h5>
-              </div>
-              <div class="">
-                <p>Presorting mail and dispatching to other delivery departments.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">ALBtelecom</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://cdnimpuls.com/tiranapost.al/media3/-640-0-5fad2a5f6fe86.png" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Retail Sales Representative | Feb 2015 - Jul 2017</h5>
-              </div>
-              <div class="">
-                <p>Responsible for providing effective and high quality service to every customer enetering in the store.<span id="dots2">..</span><span id="more2">
-                    Provided customers with information about the quality, value, and styles of products to influence
-                    their buying decisions. Dealt with their complaints and handled their concerns.
-                    Increased purchase totals by recommending additional items. Developed and executed sales promotions.
-                    Maintained up-to-date knowledge of customer buying habits and products.
-                    Trained and worked with SAP and RMCA programs. </span><button class="hideText" onclick="toggle2()" id="myBtn2">read more</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">Grocery Store | Tirana, Albania</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://foodtank.com/wp-content/uploads/2021/09/gemma-stpjHJGqZyw-unsplash.jpg" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Manager, entrepreneur, self employed | Feb 2013 - Dec 2014</h5>
-              </div>
-              <div class="">
-                <p>Providing a great customer experience. Responsible for the growth and well-being of the business.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">Villa Palma Restaurant | Tirana, Albania</h2>
-            </div>
-            <img class="workImage img-fluid" src="http://photos.wikimapia.org/p/00/03/35/88/98_big.jpg" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>Assistant Manager | Dec 2007 - Jan 2013</h5>
-              </div>
-              <div class="">
-                <p>Responsible for the supply, product sales, staff organization, events, new hiring interviews
-                  and customer care.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="items carousel-item">
-            <div class="">
-              <h2 class="company">Central Café Bar | ETC Gallery, Tirana, Albania</h2>
-            </div>
-            <img class="workImage img-fluid" src="https://i.ytimg.com/vi/QNAGmkBH7IA/hqdefault.jpg" alt="">
-            <div class="carousel-caption d-md-block">
-              <div class="">
-                <h5>waiter | Feb 2004 - Dec 2007</h5>
-              </div>
-              <div class="">
-                <p>Attending customers needs.</p>
-              </div>
-            </div>
-          </div>
+        <div id="indicators" class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
         </div>
 
-      </div>
-      <button id="arrow" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button id="arrow" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
+        <div id="work">
 
-  <hr>
-  <!-- education -->
-  <div class="section" id="education">
-    <h3>Education</h3>
-    <div style="margin: 40px 0 60px 0;">
-      <h5 style="padding: 10px;">1999-2003 | High School Degree</h5>
-      <h4> <a href="https://asimvokshi.weebly.com/">Asim Vokshi</a> | Tirana, Albania</h4>
-    </div>
+          <div class="carousel-inner">
 
-    <div class="">
-      <h5 style="padding: 10px;">2000 | Erasmus+ (1 month of cultural and language training)</h5>
-      <h4> <a href="https://www.pushkin.institute/">Pushkin Institute</a> | Moscow, Russia</h4>
-    </div>
+            <div class="items carousel-item active">
+              <div class="">
+                <h2 class="company">FedEx Ground</h2>
+              </div>
+              <img class="workImage img-fluid"
+                src="https://s29755.pcdn.co/wp-content/uploads/2019/12/Whats-in-the-cards-for-FedEx-in-2020.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Linehaul Coordinator | Aug 2018 - Present</h5>
+                </div>
+                <div class="">
+                  <p>Responsible for the dispatch of transportation equipment in accordance with the Linehaul
+                    plan.<span id="dots1">..</span><span id="more1"> Applying Linehaul schedules and plans to maximize
+                      capacity, minimize partial trailer
+                      loads and ensuring service integrity for assigned areas. Directing the dispatch of
+                      transportation equipment. Following and communicating safety initiatives to ensure a
+                      safety-conscious culture. Investigating and reporting schedule delays, accidents and
+                      equipment failures and implementing contingency plans which ensure on-time load
+                      delivery in the event of and en-route breakdown or accident, etc.</span><button class="hideText"
+                      onclick="toggle1()" id="myBtn1">read more</button></p>
+                </div>
+              </div>
+            </div>
 
-    <div style="margin-top: 60px;">
-      <h5 style="padding: 10px;">2021-2022 | Udemy Certificate</h5>
-      <h4> <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2023 Web Development Bootcamp</a> | By Dr. Angela Yu</h4>
-    </div>
-  </div>
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">COX Communications</h2>
+              </div>
+              <img class="workImage img-fluid" src="https://www.codesigned.com/hubfs/Cox-1.png" alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Retail Sales Consultant | Dec 2017 - Aug 2018</h5>
+                </div>
+                <div class="">
+                  <p>Approaching new customers, consulting existing ones,
+                    upgrading products, making new sales, meeting monthly targets, etc.</p>
+                </div>
+              </div>
+            </div>
 
-  <hr>
-  <!-- Contact -->
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">Broadridge output</h2>
+              </div>
+              <img class="workImage img-fluid"
+                src="https://r4e7x8i5.stackpathcdn.com/wp-content/uploads/2021/04/Broadridge-Inks-Deal-to-Acquire-Itiviti-for-US2.5-Billion-1440x564_c.jpg?x79934"
+                alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Dispatcher | Sep 2017 - Dec 2017</h5>
+                </div>
+                <div class="">
+                  <p>Presorting mail and dispatching to other delivery departments.</p>
+                </div>
+              </div>
+            </div>
 
-  <footer>
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">ALBtelecom</h2>
+              </div>
+              <img class="workImage img-fluid" src="https://cdnimpuls.com/tiranapost.al/media3/-640-0-5fad2a5f6fe86.png"
+                alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Retail Sales Representative | Feb 2015 - Jul 2017</h5>
+                </div>
+                <div class="">
+                  <p>Responsible for providing effective and high quality service to every customer enetering in the
+                    store.<span id="dots2">..</span><span id="more2">
+                      Provided customers with information about the quality, value, and styles of products to influence
+                      their buying decisions. Dealt with their complaints and handled their concerns.
+                      Increased purchase totals by recommending additional items. Developed and executed sales
+                      promotions.
+                      Maintained up-to-date knowledge of customer buying habits and products.
+                      Trained and worked with SAP and RMCA programs. </span><button class="hideText" onclick="toggle2()"
+                      id="myBtn2">read more</button></p>
+                </div>
+              </div>
+            </div>
 
-    <div class="section" id="contact">
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">Grocery Store | Tirana, Albania</h2>
+              </div>
+              <img class="workImage img-fluid"
+                src="https://foodtank.com/wp-content/uploads/2021/09/gemma-stpjHJGqZyw-unsplash.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Manager, entrepreneur, self employed | Feb 2013 - Dec 2014</h5>
+                </div>
+                <div class="">
+                  <p>Providing a great customer experience. Responsible for the growth and well-being of the business.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      <div class="contactCard">
-        <h3 style="color: #FFFFFF; padding-top: 15px; padding-bottom: 15px;">Contact</h3>
-        <div class="card-body">
-          <i class="fas fa-map-marked-alt fa-2x"></i>
-          <p style="padding-bottom: 10px;"><a class="footer-link"
-              href="https://www.google.com/maps/place/5+Carillon+Dr,+Rocky+Hill,+CT+06067/@41.6553876,-72.6465646,17z/data=!3m1!4b1!4m5!3m4!1s0x89e64db4632ee4af:0xbc3891c6c7320f68!8m2!3d41.6541938!4d-72.6439107">5 Carrillon Dr, Unit A, Rocky Hill, CT
-              06067</a></p>
-          <i class="fa-solid fa fa-mobile fa-2x"></i>
-          <p style="padding-bottom: 10px;">1 959 777 2737</p>
-          <i class="icon fa fa-envelope fa-2x"></i>
-          <p><a class="footer-link" href="mailto:godobashi@gmail.com">godobashi@gmail.com</a></p>
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">Villa Palma Restaurant | Tirana, Albania</h2>
+              </div>
+              <img class="workImage img-fluid" src="http://photos.wikimapia.org/p/00/03/35/88/98_big.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>Assistant Manager | Dec 2007 - Jan 2013</h5>
+                </div>
+                <div class="">
+                  <p>Responsible for the supply, product sales, staff organization, events, new hiring interviews
+                    and customer care.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items carousel-item">
+              <div class="">
+                <h2 class="company">Central Café Bar | ETC Gallery, Tirana, Albania</h2>
+              </div>
+              <img class="workImage img-fluid" src="https://i.ytimg.com/vi/QNAGmkBH7IA/hqdefault.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <div class="">
+                  <h5>waiter | Feb 2004 - Dec 2007</h5>
+                </div>
+                <div class="">
+                  <p>Attending customers needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+        <button id="arrow" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="arrow" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
 
-    <div id="closing">
-      <a href="https://www.linkedin.com/in/genci-odobashi-692169149/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100006739694721"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
-      <p><i class="fa fa-thin fa-copyright"></i> Genci Odobashi</p>
+    <hr>
+    <!-- education -->
+    <div class="section" id="education">
+      <h3>Education</h3>
+      <div style="margin: 40px 0 60px 0;">
+        <h5 style="padding: 10px;">1999-2003 | High School Degree</h5>
+        <h4> <a href="https://asimvokshi.weebly.com/">Asim Vokshi</a> | Tirana, Albania</h4>
+      </div>
+
+      <div class="">
+        <h5 style="padding: 10px;">2000 | Erasmus+ (1 month of cultural and language training)</h5>
+        <h4> <a href="https://www.pushkin.institute/">Pushkin Institute</a> | Moscow, Russia</h4>
+      </div>
+
+      <div style="margin-top: 60px;">
+        <h5 style="padding: 10px;">2021-2022 | Udemy Certificate</h5>
+        <h4> <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2023 Web
+            Development Bootcamp</a> | By Dr. Angela Yu</h4>
+      </div>
     </div>
 
-  </footer>
+    <hr>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+
+  </main>
+
 </body>
+
+<!-- Contact -->
+
+<footer>
+
+  <div class="section" id="contact">
+
+    <div class="contactCard">
+      <h3 style="color: #FFFFFF; padding-top: 15px; padding-bottom: 15px;">Contact</h3>
+      <div class="cardBody">
+        <i class="fas fa-map-marked-alt fa-2x"></i>
+        <p style="padding-bottom: 10px;"><a class="footer-link"
+            href="https://www.google.com/maps/place/5+Carillon+Dr,+Rocky+Hill,+CT+06067/@41.6553876,-72.6465646,17z/data=!3m1!4b1!4m5!3m4!1s0x89e64db4632ee4af:0xbc3891c6c7320f68!8m2!3d41.6541938!4d-72.6439107">5
+            Carrillon Dr, Rocky Hill, CT
+            06067</a></p>
+        <i class="fa-solid fa fa-mobile fa-2x"></i>
+        <p style="padding-bottom: 10px;">1 959 777 2737</p>
+        <i class="icon fa fa-envelope fa-2x"></i>
+        <p><a class="footer-link" href="mailto:godobashi@gmail.com">odobashigenci@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="closing">
+    <a href="https://www.linkedin.com/in/genci-odobashi-692169149/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100006739694721"><i
+        class="fa-brands fa-square-facebook fa-2x"></i></a>
+    <p><i class="fa fa-thin fa-copyright"></i> Genci Odobashi</p>
+  </div>
+
+</footer>
 
 </html>

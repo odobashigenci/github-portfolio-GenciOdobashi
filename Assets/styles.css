@@ -2,7 +2,7 @@
 body {
   color: #3C4048;
   font-family: "Merriweather";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -41,12 +41,9 @@ li {
   padding: 0 20px;
 }
 
-.h4 {
-  padding-top: 10px;
-}
 
 /* Header */
-#header {
+header {
   box-shadow: 5px 5px 5px #aaaaaa;
   height: 100vh;
   position: relative;
@@ -190,27 +187,48 @@ form {
 }
 
 /* Skills */
-#skills {
+#skills, #attributes {
   background-color: #F5EFE6;
   box-shadow: 5px 5px 5px #aaaaaa;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
+.col {
+  border-color: #AEBDCA;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 2px 2px 2px inset #aaaaaa;
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.languages {
+  
+  width: 80%;
+}
+
+.card-body {
+  background-color: #F5EFE6;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  
+}
+
+.progress-bar{
+  background-color: #AEBDCA;
+}
+
+
 /* Experience */
-#experience {
+#portfolio {
   background-color: #AEBDCA;
   box-shadow: 5px 5px 5px #aaaaaa;
   color: white;
 }
 
-#more1 {
-  display: none;
-}
-
-#more2 {
-  display: none;
-}
-
-#more3 {
+#more1, #more2, #more3 {
   display: none;
 }
 
