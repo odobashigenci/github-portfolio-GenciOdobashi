@@ -1,0 +1,310 @@
+/* Body */
+body {
+  color: #3C4048;
+  font-family: "Merriweather";
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: #476072;
+}
+
+hr {
+  border: 5px;
+  border-bottom-width: 0;
+  border-style: dotted;
+  color: blue;
+  margin: 30px auto;
+  width: 3%;
+}
+
+h3 {
+  color: #476072;
+  font-family: "Arial";
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h4 {
+  color: #476072;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+h5 {
+  padding: 50px;
+}
+
+li {
+  padding: 0 20px;
+}
+
+.h4 {
+  padding-top: 10px;
+}
+
+/* Header */
+#header {
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 100vh;
+  position: relative;
+}
+
+#backgroundImage {
+  background-image: url(https://ucscextension-live-28cd95cf77884d15bb06-01c17c1.divio-media.net/images/web-development-ucsc-silicon.2e16d0ba.fill-2400x858-c100.jpg);
+  background-position: center !important;
+  background-size: cover;
+  color: #282A3A;
+  font-family: "Montserrat";
+  margin: auto;
+  padding-top: 20px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  filter: contrast(0.5);
+  overflow: hidden;
+}
+
+#profilePicture {
+  border-radius: 50%;
+  border: 1px dotted #476072;
+  height: 180px;
+  padding: 5px;
+  transition: 0.5s ease-out;
+  width: 180px;
+}
+
+.pPicture {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#profilePicture:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
+}
+
+#myName {
+  font-family: "Montserrat";
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.section {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+@media (max-width: 678px) {
+  .section {
+    width: 95%;
+    padding: 0;
+  }
+}
+
+#profession {
+  color: #282A3A;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 0 50px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  background-color: transparent;
+  color: #282A3A;
+  display: inline-block;
+  margin: 40px 0 0 50px;
+}
+
+@media (max-width: 678px){
+  .navbar-brand{
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+.nav-link {
+  color: #282A3A;
+  margin-top: 50px;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.hire {
+  background-color: transparent;
+  border-color: #476072;
+  border-radius: 10px;
+  color: #282A3A;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 17.6px;
+  font-weight: 700;
+  margin-top: 60px;
+  transition: 0.5s ease-out;
+  padding: 5px;
+  width: 150px;
+}
+
+.hire:hover {
+  background-color: #AEBDCA;
+  color: white;
+}
+
+form {
+
+  margin: 5px;
+}
+
+.headButtons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 100%;
+  width: 400px;
+}
+
+/* About me */
+#aboutMe {
+  background-color: #AEBDCA;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  color: white;
+}
+
+/* Skills */
+#skills {
+  background-color: #F5EFE6;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+/* Experience */
+#experience {
+  background-color: #AEBDCA;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  color: white;
+}
+
+#more1 {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+#more3 {
+  display: none;
+}
+
+.carousel-caption {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  width: 70%;
+  margin: auto;
+}
+
+#indicators {
+  margin-bottom: 50px;
+}
+
+.workImage {
+  width: 70%;
+}
+
+.hideText {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #476072;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.company {
+  padding-top: 30px;
+}
+
+.items {
+  margin-bottom: 100px;
+}
+
+/* Education */
+#education {
+  background-color: #F5EFE6;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+/* Contact me */
+#contact {
+  background-position: center !important;
+  background-image: url(https://www.google.com/maps/vt/data=YGLRBP__AlX7YtwtlQUNoBtQoUd-D8FUhk2ADf_WyiMiDFZtzn43_GmLLU02jmeKX8SAzIGrGLGYS2CNiyiY6_Pwhu6kVems3QzTPxxr7fXyi1vmEHV3asFACqXsMM--DanAKQDet5rUMezJkwdRUddjREcIAnOE7xxktbueN0AR6WXIC-J61BXbAUP8uTHRIOSyoj0DhPrKaXzhtqbNq4nhmvue_YSwLmSAAwycbzPRoMQp9BzGiwBNts2d5h96mCcbUweFDSozHIvUre1JXpwS-lelDaNDN6T0nu7XhTufvq_4Rht850BK-35ukgYP-fGXH5Jq_5cY1A);
+  box-shadow: 5px 5px 5px #aaaaaa;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.contactCard {
+  background: #AEBDCA;
+  color: white;
+  height: 450px;
+  opacity: 0;
+  padding: 20px;
+  transition: 0.5s ease-out;
+  width: 600px;
+}
+
+.showme {
+  opacity: 1 !important;
+}
+
+.footer-link {
+  color: #FFFFFF;
+}
+
+#closing {
+  padding-top: 20px;
+}
+
+.fa-linkedin {
+  color: #476072;
+  padding-bottom: 15px;
+  padding-right: 5px;
+}
+
+.fa-square-facebook {
+  color: #476072;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+.fa-linkedin:hover {
+  color: #0A66C2;
+}
+
+.fa-square-facebook:hover {
+  color: #3b5998;
+}
