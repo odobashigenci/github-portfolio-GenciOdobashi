@@ -1,4 +1,5 @@
 /* Body */
+
 body {
   color: #3C4048;
   font-family: "Merriweather";
@@ -90,6 +91,7 @@ header {
   font-family: "Montserrat";
   margin-top: 70px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .section {
@@ -100,7 +102,7 @@ header {
 
 @media (max-width: 678px) {
   .section {
-    width: 95%;
+    width: 70;
     padding: 0;
   }
 }
@@ -195,6 +197,8 @@ form {
   justify-content: center;
 }
 
+
+
 .col {
   border-color: #AEBDCA;
   border-style: solid;
@@ -245,7 +249,8 @@ form {
   margin-bottom: 50px;
 }
 
-.workImage {
+.projectImage {
+  height: 400px;
   width: 70%;
 }
 
@@ -260,7 +265,7 @@ form {
   text-decoration: none;
 }
 
-.company {
+.project {
   padding-top: 30px;
 }
 
