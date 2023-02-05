@@ -17,7 +17,7 @@ To get the most of this website, feel free to navigate through the links on the 
 
 ## Link
 
-To view page [click here]([https://odobashigenci.github.io/github-profile-odobashigenci/](https://github.com/odobashigenci/github-profile-odobashigenci/blob/main/Assets/Photo/Profile%20Picture.jpg?raw=true))
+To view page [click here](https://odobashigenci.github.io/github-profile-odobashigenci/)
 
 
 ## Image
