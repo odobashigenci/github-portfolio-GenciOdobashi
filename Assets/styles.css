@@ -1,3 +1,11 @@
+:root{
+  --dark-header: #282A3A;
+  --dark-grey: #476072;
+  --darker-white: #aaaaaa;
+  --light-body: #AEBDCA;
+  --light-white: #F5EFE6;
+}
+
 /* Body */
 
 body {
@@ -10,7 +18,7 @@ body {
 }
 
 a {
-  color: #476072;
+  color: var(--dark-grey);
 }
 
 hr {
@@ -23,7 +31,7 @@ hr {
 }
 
 h3, h4 {
-  color: #476072;
+  color: var(--dark-grey);
   font-family: "Arial";
   font-weight: bold;
  
@@ -42,7 +50,7 @@ li {
 /* Header */
 
 header {
-  box-shadow: 5px 5px 5px #aaaaaa;
+  box-shadow: 5px 5px 5px var(--darker-white);
   height: 100vh;
   position: relative;
 }
@@ -51,7 +59,7 @@ header {
   background-image: url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
   background-position: center !important;
   background-size: cover;
-  color: #282A3A;
+  color: var(--dark-header);
   font-family: "Montserrat";
   margin: auto;
   padding-top: 20px;
@@ -67,7 +75,7 @@ header {
 
 #profilePicture {
   border-radius: 50%;
-  border: 1px dotted #476072;
+  border: 1px dotted var(--dark-grey);
   height: 180px;
   padding: 5px;
   transition: 0.5s ease-out;
@@ -105,7 +113,7 @@ header {
 }
 
 #profession {
-  color: #282A3A;
+  color: var(--dark-header);
   font-family: "Montserrat";
   font-weight: 700;
   padding-bottom: 30px;
@@ -123,7 +131,7 @@ header {
 
 .navbar-brand {
   background-color: transparent;
-  color: #282A3A;
+  color: var(--dark-header);
   display: inline-block;
   margin: 40px 0 0 50px;
 }
@@ -147,7 +155,7 @@ header {
 
 .hire {
   background-color: transparent;
-  border-color: #476072;
+  border-color: var(--dark-grey);
   border-radius: 10px;
   color: rgb(43, 41, 41);
   display: inline-block;
@@ -181,47 +189,47 @@ form {
 /* About me */
 
 #aboutMe {
-  background-color: #AEBDCA;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: var(--light-body);
+  box-shadow: 5px 5px 5px var(--darker-white);
   color: white;
 }
 
 /* Skills */
 
 #skills, #attributes {
-  background-color: #F5EFE6;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: var(--light-white);
+  box-shadow: 5px 5px 5px var(--darker-white);
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
 }
 
 .col {
-  border-color: #AEBDCA;
+  border-color: var(--light-body);
   border-style: solid;
   border-width: 2px;
-  box-shadow: 2px 2px 2px inset #aaaaaa;
+  box-shadow: 2px 2px 2px inset var(--darker-white);
   flex: 1 0 200px;
   padding: 10px;
   text-align: center;
 }
 
 .card-body {
-  background-color: #F5EFE6;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: var(--light-white);
+  box-shadow: 5px 5px 5px var(--darker-white);
   
 }
 
 .progress-bar{
-  background-color: #AEBDCA;
+  background-color: var(--light-body);
 }
 
 
 /* Experience */
 
 #portfolio {
-  background-color: #AEBDCA;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: var(--light-body);
+  box-shadow: 5px 5px 5px var(--darker-white);
   color: white;
 }
 
@@ -251,7 +259,7 @@ form {
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
-  color: #476072;
+  color: var(--dark-grey);
   cursor: pointer;
   overflow: hidden;
   font-size: 0.8rem;
@@ -269,8 +277,8 @@ form {
 /* Education */
 
 #education {
-  background-color: #F5EFE6;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: var(--light-white);
+  box-shadow: 5px 5px 5px var(--darker-white);
 }
 
 /* Contact me */
@@ -278,7 +286,7 @@ form {
 #contact {
   background-position: center !important;
   background-image: url(https://www.google.com/maps/vt/data=YGLRBP__AlX7YtwtlQUNoBtQoUd-D8FUhk2ADf_WyiMiDFZtzn43_GmLLU02jmeKX8SAzIGrGLGYS2CNiyiY6_Pwhu6kVems3QzTPxxr7fXyi1vmEHV3asFACqXsMM--DanAKQDet5rUMezJkwdRUddjREcIAnOE7xxktbueN0AR6WXIC-J61BXbAUP8uTHRIOSyoj0DhPrKaXzhtqbNq4nhmvue_YSwLmSAAwycbzPRoMQp9BzGiwBNts2d5h96mCcbUweFDSozHIvUre1JXpwS-lelDaNDN6T0nu7XhTufvq_4Rht850BK-35ukgYP-fGXH5Jq_5cY1A);
-  box-shadow: 5px 5px 5px #aaaaaa;
+  box-shadow: 5px 5px 5px var(--darker-white);
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -286,7 +294,7 @@ form {
 }
 
 .contactCard {
-  background-color: #AEBDCA;
+  background-color: var(--light-body);
   border-radius: 1%;
   color: white;
   height: 400px;
