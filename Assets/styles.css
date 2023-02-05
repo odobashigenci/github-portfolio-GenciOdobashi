@@ -22,18 +22,13 @@ hr {
   width: 5%;
 }
 
-h3 {
+h3, h4 {
   color: #476072;
   font-family: "Arial";
   font-weight: bold;
-  text-decoration: underline;
+ 
 }
 
-h4 {
-  color: #476072;
-  font-family: "Arial";
-  font-weight: bold;
-}
 
 h5 {
   padding: 50px;
@@ -45,6 +40,7 @@ li {
 
 
 /* Header */
+
 header {
   box-shadow: 5px 5px 5px #aaaaaa;
   height: 100vh;
@@ -52,7 +48,7 @@ header {
 }
 
 #backgroundImage {
-  background-image: url(https://ucscextension-live-28cd95cf77884d15bb06-01c17c1.divio-media.net/images/web-development-ucsc-silicon.2e16d0ba.fill-2400x858-c100.jpg);
+  background-image: url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
   background-position: center !important;
   background-size: cover;
   color: #282A3A;
@@ -65,7 +61,7 @@ header {
   top: 0;
   width: 100%;
   z-index: -1;
-  filter: blur(5px) contrast(0.5);
+  filter: blur(5px) contrast(0.7);
   overflow: hidden;
 }
 
@@ -140,9 +136,9 @@ header {
 }
 
 .nav-link {
-  color: #282A3A;
+  color: rgb(43, 41, 41);
   margin-top: 50px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover {
@@ -153,19 +149,19 @@ header {
   background-color: transparent;
   border-color: #476072;
   border-radius: 10px;
-  color: #282A3A;
+  color: rgb(43, 41, 41);
   display: inline-block;
   font-family: "Montserrat";
   font-size: 17.6px;
   font-weight: 700;
-  margin-top: 60px;
+  /* margin-top: 30px; */
   transition: 0.5s ease-out;
   padding: 5px;
-  width: 150px;
+  width: 170px;
 }
 
 .hire:hover {
-  background-color: #AEBDCA;
+  background-color: #acafc2;
   color: white;
 }
 
@@ -183,6 +179,7 @@ form {
 }
 
 /* About me */
+
 #aboutMe {
   background-color: #AEBDCA;
   box-shadow: 5px 5px 5px #aaaaaa;
@@ -190,6 +187,7 @@ form {
 }
 
 /* Skills */
+
 #skills, #attributes {
   background-color: #F5EFE6;
   box-shadow: 5px 5px 5px #aaaaaa;
@@ -220,6 +218,7 @@ form {
 
 
 /* Experience */
+
 #portfolio {
   background-color: #AEBDCA;
   box-shadow: 5px 5px 5px #aaaaaa;
@@ -268,12 +267,14 @@ form {
 }
 
 /* Education */
+
 #education {
   background-color: #F5EFE6;
   box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 /* Contact me */
+
 #contact {
   background-position: center !important;
   background-image: url(https://www.google.com/maps/vt/data=YGLRBP__AlX7YtwtlQUNoBtQoUd-D8FUhk2ADf_WyiMiDFZtzn43_GmLLU02jmeKX8SAzIGrGLGYS2CNiyiY6_Pwhu6kVems3QzTPxxr7fXyi1vmEHV3asFACqXsMM--DanAKQDet5rUMezJkwdRUddjREcIAnOE7xxktbueN0AR6WXIC-J61BXbAUP8uTHRIOSyoj0DhPrKaXzhtqbNq4nhmvue_YSwLmSAAwycbzPRoMQp9BzGiwBNts2d5h96mCcbUweFDSozHIvUre1JXpwS-lelDaNDN6T0nu7XhTufvq_4Rht850BK-35ukgYP-fGXH5Jq_5cY1A);
@@ -285,7 +286,7 @@ form {
 }
 
 .contactCard {
-  background: #AEBDCA;
+  background-color: #AEBDCA;
   border-radius: 1%;
   color: white;
   height: 400px;
