@@ -22,7 +22,7 @@ To view page [click here](https://odobashigenci.github.io/github-profile-odobash
 
 ## Image
 
-![Preview image](C:\Users\Genci\OneDrive\Desktop\BTC\github.com-odobashigenci\Assets\Photo\Sample.png)
+![Preview image](Assets\Photo\Preview.png)
 
 
 ## Credits
