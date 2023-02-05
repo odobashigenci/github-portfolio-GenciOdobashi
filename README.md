@@ -22,7 +22,7 @@ To view page [click here]([https://odobashigenci.github.io/github-profile-odobas
 
 ## Image
 
-![Preview image](Assets\Photo\Preview.jpg)
+![Preview image](Assets/Photo/Preview.jpg)
 
 
 ## Credits
