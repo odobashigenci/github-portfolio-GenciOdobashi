@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-To get the most of this website, feel fre to navigate through the links on the top of the page, hover over the profile picture, click the buttons, navigate through the carousel, and find out how to contact me at the bottom of the page. 
+To get the most of this website, feel free to navigate through the links on the top of the page, hover over the profile picture, click the buttons, navigate through the carousel, and find out how to contact me at the bottom of the page. 
 
 
 ## Link
@@ -22,7 +22,7 @@ To view page [click here](https://odobashigenci.github.io/github-profile-odobash
 
 ## Image
 
-![Preview image](C:\Users\Genci\OneDrive\Desktop\BTC\github.com-odobashigenci\Assets\Photo\Sample.png)
+![Preview image](Assets/Photo/Preview.jpg)
 
 
 ## Credits
