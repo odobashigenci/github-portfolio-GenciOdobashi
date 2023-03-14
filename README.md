@@ -27,7 +27,7 @@ To view page [click here](https://odobashigenci.github.io/github-profile-odobash
 
 ## Credits
 
-Babackground-image-top: Made with [contributors-img](https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)
+Background-image-top: Made with [contributors-img](https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)
 
 Under construction-image: Made with (Photo by <a href="https://unsplash.com/@thatsmrbio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Hamilton</a> on <a href="https://unsplash.com/photos/v_CxSroHKWg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>)
 
