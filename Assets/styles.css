@@ -78,7 +78,7 @@ header {
   border: 1px dotted var(--dark-grey);
   height: 180px;
   padding: 5px;
-  transition: 0.5s ease-out;
+  transition: 0.2s ease-out;
   width: 180px;
 }
 
@@ -89,7 +89,7 @@ header {
 
 #profilePicture:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 #myName {
@@ -100,6 +100,7 @@ header {
 }
 
 .section {
+  border-radius: 10px;;
   width: 80%;
   margin: auto;
   padding: 30px;
@@ -163,14 +164,18 @@ header {
   font-size: 17.6px;
   font-weight: 700;
   /* margin-top: 30px; */
-  transition: 0.5s ease-out;
+  transition: 0.2s ease-out;
   padding: 5px;
   width: 170px;
 }
 
 .hire:hover {
-  background-color: #acafc2;
-  color: white;
+  /* background-color: #acafc2; */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* color: white; */
+  transform: translateY(-0.05rem);
+  /* transition: transform 150ms; */
+  transition: 0.3s ease out;
 }
 
 form {
